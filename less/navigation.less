@@ -17,3 +17,24 @@ nav a {
 nav h1 {
     padding-right: 362px;
 }
+
+@media @mobile {
+    .navigation {
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: row;
+        padding-top: 0px;
+        height: 60px;
+    }
+
+    nav h1 {
+        padding: 10px;
+        display: flex;
+        flex-flow: row;
+    }
+    
+    nav a {
+        display: flex;
+        justify-content: space-between;
+    }
+}
